@@ -1,0 +1,111 @@
+.details-div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    
+    .image-detail{
+        img{
+            width: 800px;
+            height: 500px;
+            object-fit: contain;
+        }
+    }
+    .sag-detail{
+        margin-left: 10px;
+        .text-detail{
+            p{
+                font-size: 50px;
+            }
+        }
+       .rating-detail{
+        display: flex;
+        flex-direction: row;
+        i{
+            margin-top: 5px;
+            font-size: 25px;
+            color: orange;
+        }
+        p{
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+       }
+       .price-detail{
+        display: flex;
+        p:nth-child(1){
+            margin-right: 10px;
+            font-size: 30px;
+        }
+        p:nth-child(2){
+            margin-right: 10px;
+            margin-top: 7px;
+            font-size: 22px;
+            color: gray;
+        }
+       }
+       .people-detail{
+        display: flex;
+        width: 500px;
+        height: auto;
+        
+        background-color: #FFF1E6;
+        i{
+            margin-top: 14px;
+            margin-right: 10px;
+            margin-left: 50px;
+            color:#F46E16;
+        }
+        p{
+            color: #F46E16;
+            margin-top: 8px;
+            
+        }
+       }
+       .art-azal{
+        display: flex;
+        /* justify-content: space-between; */
+        margin-top: 20px;
+        .button{
+            display: flex;
+            flex-direction: row;
+             width: 120px;
+            height: 50px;
+        margin-left: 10px;
+        align-items: center;
+        justify-content: space-around;
+        border: 1px solid #ECECEC;
+        border-radius: 20px;
+        
+        button{
+           background: none;
+           border: 0;
+           font-size: 20px;
+           color: #1E1E1E;
+        }
+        p{
+            border-radius: 40%;
+            width: 25px;
+            height: 25px;
+            color: #1E1E1E;
+            text-align: center;
+            margin-top: 17px;
+            
+        }
+        }
+        .addcart{
+            
+            button{
+                margin-left: 10px;
+                width: 364px;
+                border-radius: 20px;
+                height: 50px;
+                border: 0;
+                color: white;
+                background-color: #064C50;
+            }
+        }
+       }
+
+    }
+  
+}

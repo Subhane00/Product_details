@@ -1,0 +1,135 @@
+.contact{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    .sol-contact{
+        display: flex;
+        flex-direction: column;
+        .ust-sol-contact{
+            p:nth-child(1){
+                 font-size: 30px;
+                 margin-top: 10px;
+            }
+            p:nth-child(2){
+                width: 550px;
+                color: gray;
+            }
+        }
+        .asagi-sol-contact{
+            display: flex;
+            margin-top: 10px;
+            .asagi-1{
+                margin-right: 50px;
+                p:nth-child(1){
+                    font-size: 11px;
+                    color: gray;
+                    margin: 0;
+                    margin-bottom: 5px;
+                    font-weight: bold;
+
+                }
+                p:nth-child(2){
+                    margin: 0;
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+                p:nth-child(3){
+                    width: 290px;
+                }
+                p:nth-child(4){
+                    margin: 0;
+                    font-weight: bold;
+                }
+                 p:nth-child(5){
+                    margin: 0;
+                    font-weight: bold;
+                }
+            }
+        }
+
+    }
+
+
+    .sag-contact{
+        margin-top: 10px;
+        background-color: #F3F4F6;
+        padding: 18px;
+        border: 1px solid #ECEDF0;
+        border-radius: 10px;
+        height: auto;
+        .sag-text-contact{
+            p:nth-child(1){
+                font-size: 30px;
+            }
+            p:nth-child(2){
+                font-size: 14px;
+                color: gray;
+            }
+        }
+        .name-email{
+            display: flex;
+            .name{
+                margin-right: 20px;
+                input{
+                    width: 250px;
+                    border: 1px solid #D1D5DB;
+                    height: 35px;
+                    border-radius: 10px;
+                }
+            }
+            .email{
+                input{
+                    width: 250px;
+                    border: 1px solid #D1D5DB;
+                     height: 35px;
+                    border-radius: 10px;
+                }
+
+            }
+        }
+
+        .subject{
+            margin-top: 13px;
+             input{
+                    width: 525px;
+                    border: 1px solid #D1D5DB;
+                     height: 35px;
+                    border-radius: 10px;
+                }
+
+
+            
+        }
+        .message{
+             margin-top: 13px;
+             input{
+                    width: 525px;
+                    height: 20px;
+                    border: 1px solid #D1D5DB;
+                     height: 70px;
+                    border-radius: 10px;
+                }
+
+        }
+        .submit{
+            margin-top: 20px;
+            border-radius: 10px;
+            height: 40px;
+            width: 120px;
+            color: white;
+            background-color: #064C50;
+            border: 1px solid #064C50;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    }
+
+}
+
+
+
+.Dark{
+    .sag-contact{
+        background-color: black;
+    }
+}

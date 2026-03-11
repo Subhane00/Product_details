@@ -1,0 +1,62 @@
+.login-form{
+  background-color: #BDEB69;
+  height: 400px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+
+
+.dashboard{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 300px;
+
+
+  .dashboard-category{
+    width: 200px;
+    height: 200px;
+      margin-top: 50px;
+      background-image: url('https://i.pinimg.com/736x/50/a7/6d/50a76da6bce6e2d1145664649367e587.jpg');
+      background-size: cover;
+      background-position: center;
+      border-radius: 40px;
+     transition: all 0.5s ease;
+
+     
+  }
+
+  .dashboard-category:hover{
+    height: 250px;
+    width: 250px;
+     transition: all 0.5s ease;
+  }
+
+
+   .dashboard-product{
+    width: 200px;
+    height: 200px;
+      margin-top: 50px;
+      background-image: url('https://i.pinimg.com/736x/42/d6/0d/42d60d51a56fd12a2d49d8dff4c36556.jpg');
+      background-size: cover;
+      background-position: center;
+      border-radius: 40px;
+     transition: all 0.5s ease;
+
+     
+  }
+
+  .dashboard-product:hover{
+    height: 250px;
+    width: 250px;
+     transition: all 0.5s ease;
+  }
+
+
+
+}

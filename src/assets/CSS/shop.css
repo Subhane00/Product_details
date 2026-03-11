@@ -1,0 +1,103 @@
+.shop{
+    display: flex;
+    .card{
+    width: 300px;
+    height: 400px;
+
+   .btn{
+    background-color: #BDEB69;
+    color: white;
+   }
+
+    img{
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+    }
+    .price{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      p:nth-child(1){
+        margin-right: 5px;
+        font-size: 25px;
+        color: #15803d;
+      
+      }
+        p:nth-child(2){
+        margin-right: 5px;
+        font-size: 16px;
+        color: gray;
+        margin-top: 8px;
+      }
+    }
+    .rating{
+        display: flex;
+        i{
+         margin-top: 5px;
+         color:orange;
+         font-size: 15px;
+        }
+        p{
+            margin-left: 3px;
+            font-size: 12px;
+            margin-top: 3px;
+        }
+    }
+}
+
+.category-button{
+   display: flex;
+   flex-direction: column;
+   width: 100px;
+   height: 40px;
+   margin-bottom: 10px;
+   margin-left: 7px;
+   margin-top: 20px;
+   border: 1px solid white;
+   border-radius: 30px;
+   color: white;
+   background-color: #BDEB69;
+   align-items: center;
+   justify-content: center;
+}
+}
+
+h2{
+    text-align: center;
+    color: orange;
+}
+
+.clearall{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 10vh;
+   button{
+    background-color: #BDEB69;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    color: white;
+    margin-top: 30px;
+   }
+   p{
+    margin-top: 20px;
+    width: 150px;
+    padding: 10px;
+    background-color: #BDEB69;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+
+    
+
+   }
+   
+}
+
+
+
