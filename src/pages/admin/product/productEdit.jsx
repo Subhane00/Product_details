@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductForm from './Productform'
+import ProductForm from './ProductForm'
 import { useDispatch, useSelector } from 'react-redux';
 import { productEdit } from '../../../redux/action/productAction';
 import { useParams } from 'react-router';
