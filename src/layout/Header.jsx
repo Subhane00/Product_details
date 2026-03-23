@@ -90,7 +90,7 @@ const Header = () => {
       <div className="container">
         <div className='header-one'>
           <img
-            src="https://klbtheme.com/supgor/wp-content/uploads/2025/10/logo-dark-2.png"
+            src="/images/logo-dark-2.png"
             alt=""
           />
           <div className="location">
