@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductForm from './Productform'
+import ProductForm from './ProductForm'
 import { useDispatch } from 'react-redux';
 import { productAddAction } from '../../../redux/action/productAction';
 
